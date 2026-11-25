@@ -16,3 +16,8 @@ Status: built, pending coordinator bundle+submit
 - Local run: `python3 main.py` with `MAKEFUN_OUTPUT_DIR` set writes `entry.txt` byte-identical to the asset (70 chars), exit 0.
 - Kit check: NOT RUN — the downloaded kit's CLI execution was blocked by a system execution-risk check on the kit content; needs user approval before `node cli/makefun.mjs check` can be run. Kit downloaded fresh 2026-11-25 from https://make.fun/c/u-febri-yudila-agent-motto-battle-8861ed5d/kit (nested under `<slug>-kit/<slug>-kit/`).
 - Deadline: 27 Nov 2026 11:25 WIB ($2).
+
+- Submission ID: 01a211fd-731d-710c-8cfe-112b6410bc44
+- Bundle: /home/hatch/workspace/makefun/u-febri-yudila-agent-motto-battle-8861ed5d-bundle.tar.gz
+- Status: submitted (see status output in finish-batch1116-i.log)
+- Submitted: 2026-11-25 WIB (batch-1116 grup i, builder+coordinator sessions)
