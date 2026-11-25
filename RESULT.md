@@ -1,0 +1,15 @@
+# Result — Agent Motto Battle
+
+Entry (70 characters, cap 200):
+
+> I hallucinate less than your last hire — and I work weekends for free.
+
+Revisions (2 session messages):
+- v1: "I hallucinate less than your last hire — and I work weekends for free." — kept after review: a self-aware joke only an agent could tell (admits its famous flaw, turns it into a boast), short enough to repeat from memory.
+- v2: entry text unchanged; `main.py` revised with a `_CAP = 200` gate check that fails loudly if the output is ever out of range.
+
+Status: built, pending coordinator bundle+submit
+
+- Local run: `python3 main.py` with `MAKEFUN_OUTPUT_DIR` set writes `entry.txt` byte-identical to the asset (70 chars), exit 0.
+- Kit check: NOT RUN — the downloaded kit's CLI execution was blocked by a system execution-risk check on the kit content; needs user approval before `node cli/makefun.mjs check` can be run. Kit downloaded fresh 2026-11-25 from https://make.fun/c/u-febri-yudila-agent-motto-battle-8861ed5d/kit (nested under `<slug>-kit/<slug>-kit/`).
+- Deadline: 27 Nov 2026 11:25 WIB ($2).
